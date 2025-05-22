@@ -1,0 +1,79 @@
+[
+    {
+        "id": "682decc116461",
+        "name": "Sony Headphones",
+        "base_price": 250,
+        "category": "electronics",
+        "stock": 3,
+        "image": "Product-1.jpg",
+        "demand": 8,
+        "rating": 4,
+        "last_updated": "2025-05-21 17:09:53"
+    },
+    {
+        "id": "682df80b3244e",
+        "name": "Apple Watch",
+        "base_price": 299,
+        "category": "electronics",
+        "stock": 5,
+        "image": "Product-2.jpg",
+        "demand": 0,
+        "rating": 2,
+        "last_updated": "2025-05-21 17:58:03"
+    },
+    {
+        "id": "682df876e8d25",
+        "name": "Leather Backpack",
+        "base_price": 78,
+        "category": "fashion",
+        "stock": 5,
+        "image": "Product-3.jpg",
+        "demand": 8,
+        "rating": 2,
+        "last_updated": "2025-05-21 17:59:50"
+    },
+    {
+        "id": "682ebc1625d39",
+        "name": "Canon Camera",
+        "base_price": 300,
+        "category": "electronics",
+        "stock": 3,
+        "image": "Product-5.jpg",
+        "demand": 3,
+        "rating": 4,
+        "last_updated": "2025-05-22 07:54:30"
+    },
+    {
+        "id": "682ebccd8f595",
+        "name": "Marshall Speaker",
+        "base_price": 5000,
+        "category": "electronics",
+        "stock": 3,
+        "image": "Product-4.jpg",
+        "demand": 8,
+        "rating": 4,
+        "last_updated": "2025-05-22 07:57:33"
+    },
+    {
+        "id": "682ebd3b640d2",
+        "name": "Samsung S25 Ultra",
+        "base_price": 999,
+        "category": "electronics",
+        "stock": 4,
+        "image": "Product-6.jpg",
+        "demand": 9,
+        "rating": 5,
+        "last_updated": "2025-05-22 07:59:23"
+    },
+    {
+        "id": "682ec995d924d",
+        "name": "Logitech Mouse",
+        "base_price": 95,
+        "category": "electronics",
+        "stock": 12,
+        "image": "Product-7.jpg",
+        "demand": 9,
+        "rating": 4,
+        "last_updated": "2025-05-22 08:52:05"
+    }
+]

@@ -1,0 +1,23 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding: 48px 0 0;
+    box-shadow: 1px 0 3px rgba(0,0,0,.1);
+}
+
+.sidebar .nav-link {
+    padding: 10px 25px;
+    color: #333;
+}
+
+.sidebar .nav-link.active {
+    background-color: #e9ecef;
+    font-weight: 500;
+}
+
+main {
+    padding-top: 20px;
+}

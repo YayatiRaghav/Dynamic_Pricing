@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopSmart - Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="main-navbar shadow-sm">
+        <div class="top-navbar">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-2 my-auto d-none d-sm-none d-md-block d-lg-block">
+                        <h5 class="brand-name">ShopSmart</h5>
+                    </div>
+                    <div class="col-md-5 my-auto">
+                        <form id="search-form" role="search">
+                            <div class="input-group">
+                                <input type="search" id="search-input" placeholder="Search products" class="form-control" />
+                                <button class="btn bg-white" type="submit">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-5 my-auto">
+                        <ul class="nav justify-content-end">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="products.html">Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="cart.html">
+                                    Cart (<span id="cart-count">0</span>)
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Welcome Section -->
+    <div class="container my-5 text-center">
+        <h1 class="display-4">Welcome to ShopSmart</h1>
+    </div>
+
+    <!-- Carousel Section -->
+    <div id="heroCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/carousel_1.jpg" class="d-block w-100" alt="Summer Sale">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Summer Sale!</h3>
+                    <p>Up to 50% off selected items</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel_2.jpg" class="d-block w-100" alt="New Arrivals">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>New Arrivals</h3>
+                    <p>Discover our latest products</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel_3.jpg" class="d-block w-100" alt="Free Shipping">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Free Shipping</h3>
+                    <p>On orders over $100</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/search.js"></script>
+</body>
+</html>

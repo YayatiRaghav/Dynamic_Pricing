@@ -1,0 +1,18 @@
+[
+  {
+    "category": "electronics",
+    "demand": 8,
+    "rating": 4.5,
+    "base_price": 100,
+    "final_price": 120,
+    "sales": 50
+  },
+  {
+    "category": "fashion",
+    "demand": 5,
+    "rating": 4.0,
+    "base_price": 50,
+    "final_price": 55,
+    "sales": 200
+  }
+]
